@@ -1,3 +1,6 @@
+#Stone Paper Scisor Game
+
+
 import random
 
 u,c=0,0
@@ -63,6 +66,6 @@ while True:
 if u>c:
     print("\n\n<==========You Win==========>\n\nYour Points: {}\nCoputer Points{}: ".format(u,c))
 elif c>u:
-    print("\n\n<==========Computer Win==========>\n\nYour Points: {}\nCoputer Points{}: ".format(u,c))
+    print("\n\n<==========Computer Win==========>\n\nYour Points: {}\nCoputer Points: {}".format(u,c))
 else:
-    print("\n\n<==========Draw,Nobody Win==========>\n\nYour Points: {}\nCoputer Points{}: ".format(u,c))
+    print("\n\n<==========Draw,Nobody Win==========>\n\nYour Points: {}\nCoputer Points: {}".format(u,c))
