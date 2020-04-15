@@ -52,7 +52,7 @@ while True:
                 print(letter ,end=" ")
             else :
                 print("_",end=" ")
-        print("\n\n*********Strikes remaining :",len(bad_guess),"/5**********\n")
+        print("\n\n*********Strikes used :",len(bad_guess),"/5**********\n")
         
         
         guess=input("Enter Your Guess: ").lower()#taking guess from user
